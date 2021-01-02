@@ -8,6 +8,8 @@ pkg install git
 
 git clone https://github.com/ghostinlinux/Termux-jupyter-notebook-Installer.git
 
+cd Termux-jupyter-notebook-Installer
+
 bash jupyter-installer.sh
 
 #To start JupyterNotebook simply type jupyter-notebook 
