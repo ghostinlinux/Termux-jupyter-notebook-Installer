@@ -4,13 +4,15 @@ apt upgrade -y
 clear
 echo "Installing dependencies"
 sleep 1
-apt install python clang -y
+pkg install python -y
+clear
+pkg install clang -y
 clear
 pip install wheel
 clear
 pip install cython
 clear
-apt install libzmq -y
+pkg install libzmq -y
 clear
 pip install pyzmq
 clear
