@@ -4,7 +4,7 @@ apt upgrade -y
 clear
 echo "Installing dependencies"
 sleep 1
-apt install python clang 
+apt install python clang -y
 clear
 pip install wheel
 clear
