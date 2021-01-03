@@ -9,6 +9,7 @@ clear
 pkg install clang -y
 clear
 python3 -m pip install --upgrade pip
+clear
 pip install wheel
 clear
 pip install cython
